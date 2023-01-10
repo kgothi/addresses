@@ -1,57 +1,133 @@
 [
     {
-        "id": "1",
-        "type": {
-            "code": "1",
-            "name": "Physical Address"
-        },
-        "addressLineDetail": {
-            "line1": "Address 1",
-            "line2": "Line 2"
-        },
-        "provinceOrState": {
-            "code": "5",
-            "name": "Eastern Cape"
-        },
-        "cityOrTown": "City 1",
-        "country": {
-            "code": "ZA",
-            "name": "South Africa"
-        },
-        "postalCode": "1234",
-        "lastUpdated": "2015-06-21T00:00:00.000Z"
-    },
-    {
-        "id": "2",
-        "type": {
-            "code": "2",
-            "name": "Postal Address"
-        },
-        "cityOrTown": "City 2",
-        "country": {
-            "code": "LB",
-            "name": "Lebanon"
-        },
-        "postalCode": "2345",
-        "lastUpdated": "2017-06-21T00:00:00.000Z"
-    },
-    {
-        "id": "3",
-        "type": {
-            "code": "5",
-            "name": "Business Address"
-        },
-        "addressLineDetail": {
-            "line1": "Address 3",
-            "line2": ""
-        },
-        "cityOrTown": "City 3",
-        "country": {
-            "code": "ZA",
-            "name": "South Africa"
-        },
-        "postalCode": "3456",
-        "suburbOrDistrict": "Suburb 3",
-        "lastUpdated": "2018-06-13T00:00:00.000Z"
-    }
-]
+            "address":
+
+                {
+                    "id": "1",
+                     "type": {
+                    "code": "1",
+                    "name": "Lebanon."
+                }
+                   
+            }
+            "addressLineDetail"{
+         
+             "line1": "Address 1",
+             "line2": "Address 2"},
+    ]               
+                
+                {
+                    "provinceOrState"
+                
+                    "code": "5",
+                    "name": "Eastern Cape"
+                },
+                    "cityOrTown",
+                    "City 1",
+                    "country",
+              {
+                    "code": "ZA",
+                    "name": "South Africa"
+              },
+                    "postalCode",
+                    "1234",
+                    "lastUpdated",
+                    "2015-06-21T00:00:00.000Z"
+             },
+              {
+            
+                    "id": "2",
+                    "type": {
+                    "code": "2",
+                    "name": "Postal Address"
+              },
+                    "cityOrTown": "City 2",
+                    "country": {
+                    "code": "LB",
+                    "name": "Lebanon"
+              },
+                    "postalCode": "2345",
+                    "lastUpdated": "2017-06-21T00:00:00.000Z"
+              },
+              {
+                    "id": "3",
+                    "type": {
+                    "code": "5",
+                    "name": "Business Address"
+             },
+                    "addressLineDetail": {
+                    "line1": "Address 3",
+                    "line2": "Address 4"
+             },
+                    "cityOrTown": "City 3",
+                    "country": {
+                    "code": "ZA",
+                    "name": "South Africa"
+            },
+                    "postalCode": "3456",
+                    "suburbOrDistrict": "Suburb 3",
+                    "lastUpdated": "2018-06-13T00:00:00.000Z"
+            {
+                    let obj = {"line1": "Address 1",
+                    "line2": "Address 2"};
+
+                    console.log(JSON.stringify(data, null, 2));
+            }
+            {
+                    "adress": {
+                    object (PostalAddress)
+                    },
+                    "resposeId" : string,
+                    "enableUspsCass" : boolean,
+            }
+            {
+                    function tryParseJSONObject (jString){
+                        try {
+                            if(line1 && typeof 0line2 === "address"){
+                                return 0;
+                            }
+                        }
+                        catch (e){ }
+                        return false;
+                    }
+                    var address = [
+                        {"id": "1", "target": "2", "metrics": {"normal": 3}, "metadata": {"streaming": 1} },
+                        {"type": "1", "target": "2", "metrics": {"normal": 3}, "metadata": {"streaming": 1} },
+                        {"code": "1", "target": "2", "metrics": {"normal": 5}, "metadata": {"streaming": 1} },
+                        {"name": "1", "target": "2", "metrics": {"normal": 4}, "metadata": {"streaming": 1} },
+                        {"cityOrTown": "1", "target": "2", "metrics": {"normal": 3}, "metadata": {"streaming": 1} },
+                        {"country": "1", "target": "2", "metrics": {"normal": 1}, "metadata": {"streaming": 1} },
+                        {"line1": "1", "target": "2", "metrics": {"normal": 4}, "metadata": {"streaming": 1} },
+                        {"line2": "1", "target": "2", "metrics": {"normal": 4}, "metadata": {"streaming": 1} },
+                        {"postalCode": "1", "target": "2", "metrics": {"normal": 3456}, "metadata": {"streaming": 1} },
+                        {"suburbOrDistrict": "1", "target": "2", "metrics": {"normal": 23}, "metadata": {"streaming": 1} },
+                        {"lastupdated": "1", "target": "2", "metrics": {"normal": 2018-06-13}, "metadata": {"streaming": 1} },
+                    ];
+                    
+                        var map = {};
+                        address.foreach((address) => {
+                            var mapkey = address.source + "/" + address.target;
+                            answerAddress = map[mapkey];
+                        
+                            if(!answerAddress || answerAddress.metrics.normal<address.metrics.normal)
+                            map[mapkey] = address
+                    }); 
+                    
+                            var answer = Object.values(map);
+                            console.log(answer);
+                    [
+                    
+                        {
+                            "id": "2",
+                            "city": "city3",
+                            "line details": "2",
+                            "country": "South Africa",
+                            "postal code": "3456",
+                            "province": Easterncape
+                            
+                        }
+                    ]
+                    
+            }
+        }
+    ]
